@@ -2,27 +2,11 @@ import { EventType } from "@/component/UpcomingEvent/Card"
 
 export const upcomingEvents = [
   {
-    title: "AWS Student Community Day - Southern Luzon",
-    subtitle: "A collaborative event bringing together AWS Clubs across Southern Luzon to share knowledge and network with fellow cloud enthusiasts.",
-    date: "February 16, 2026",
-    time: "1:00 PM - 7:00 PM",
-    location: "PCU Dasmariñas, Cavite",
-    type: EventType.SEMINAR
-  },
-  {
-    title: "Git & GitHub: From Local to Cloud",
-    subtitle: "A comprehensive workshop designed to teach students the fundamentals of Git version control and effective collaboration using GitHub.",
-    date: "March 4, 2026",
-    time: "9:00 AM - 11:00 AM",
-    location: "Computer Laboratory 3, UPHSL",
-    type: EventType.WORKSHOP
-  },
-  {
     title: "Ideathon 2026",
     subtitle:
       "A competitive ideation event where students collaborate to solve real-world challenges using AWS solutions and architecture. Participants develop, refine, and pitch innovative ideas, building skills in creativity, teamwork, and problem solving.",
-    date: "Aligned with CCS Days",
-    time: "TBA",
+    date: "April 14, 2026",
+    time: "10:30 AM - 1:00 PM",
     location: "Macintosh Laboratory, UPHSL",
     type: EventType.COMPETITION,
   },

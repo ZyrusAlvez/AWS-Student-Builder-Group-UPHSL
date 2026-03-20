@@ -11,6 +11,14 @@ type Event = {
 
 export const events: Event[] = [
   {
+    title: "AWS Cloud Club Launch: Introduction to AWS & Cloud Computing",
+    subtitle: "A seminar introducing AWS Cloud Club, covering AWS fundamentals, cloud computing concepts, and the club's mission to empower students with cloud skills through workshops, projects, and community engagement.",
+    date: "March 18, 2026",
+    location: "Macintosh Laboratory, UPHSL",
+    type: EventType.SEMINAR,
+    pictures: "/event/AWSCloudClubLaunch2026",
+  },
+  {
     title: "ChainTalk 2026",
     subtitle: "A seminar for tech students highlighting cryptocurrency and blockchain technology, featuring industry professionals.",
     date: "February 5, 2026",

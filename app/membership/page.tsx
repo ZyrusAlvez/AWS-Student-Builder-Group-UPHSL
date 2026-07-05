@@ -108,23 +108,23 @@ const MembershipForm = () => {
 
   return (
     <div className="min-h-screen py-8 px-4 flex flex-col items-center gap-4">
-      <Image src="/awscc banner.webp" alt="AWS Cloud Club - UPHSL Banner" width={672} height={150} className='rounded-lg'/>
+      <Image src="/aws sbg banner.png" alt="AWS Student Builder Group - UPHSL Banner" width={672} height={150} className='rounded-lg'/>
       <div className="max-w-2xl mx-auto">
 
         <div className='rounded-t-md border-t-8 border-[#ffa23f] bg-[#ffa23f]'/>
           <div className="bg-white/10 backdrop-blur-sm shadow-xl p-8 border border-white/20">
             <div className="text-center">
-              <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold'><span className='text-[#ffa23f] font-extrabold'>AWS</span> Cloud Club</h1>
+              <h1 className='text-3xl md:text-4xl lg:text-4xl font-bold'><span className='text-[#ffa23f] font-extrabold'>AWS</span> Student Builder Group</h1>
               <h2 className='text-md md:text-lg font-bold mt-1'>University of Perpetual Help System Laguna - Biñan</h2>
               <div className='border-b border-white/20 mt-6'/>
               <div className="text-start mt-4">
                 <h2 className='text-lg font-bold text-[#ffa23f]'>Official Membership Application</h2>
-                <p className="text-white/80">I’m excited to invite you to officially join the Amazon Web Services (AWS) Cloud Club — a space where we grow our cloud knowledge and collaborate with fellow learners and enthusiasts! </p>
+                <p className="text-white/80">I’m excited to invite you to officially join the Amazon Web Services (AWS) Student Builder Group — a space where we grow our cloud knowledge and collaborate with fellow learners and enthusiasts! </p>
                 <p className="text-white/80 mt-4">To get started, please fill in the information below. Let’s build the future of cloud learning together. See you in the club! ☁️🚀</p>
                 <p className="text-white mt-2 text-end">- Awie</p>
                 <div className="mt-6 p-4 bg-[#ffa23f]/20 border border-[#ffa23f]/50 rounded-md">
                   <p className="text-white/90 text-sm">
-                    📧 <span className="font-semibold">This form will generate your membership ID</span> and it will be sent to your school email. Your membership ID will be used for tracking your involvement in the community, registering for future events, giveaways, discounts for AWSCC merch, and more to come.
+                    📧 <span className="font-semibold">This form will generate your membership ID</span> and it will be sent to your school email. Your membership ID will be used for tracking your involvement in the community, registering for future events, giveaways, discounts for AWS SBG merch, and more to come.
                   </p>
                 </div>
               </div>
@@ -197,7 +197,7 @@ const MembershipForm = () => {
             <Link href="/code-of-conduct" className="text-[#ffa23f] hover:underline font-medium">
               Code of Conduct
             </Link>
-            . AWSCC - UPHSL handles your information as described in the{' '}
+            . AWS SBG - UPHSL handles your information as described in the{' '}
             <Link href="/privacy-policy" className="text-[#ffa23f] hover:underline font-medium">
               Privacy Notice
             </Link>

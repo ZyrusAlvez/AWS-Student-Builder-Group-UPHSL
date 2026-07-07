@@ -3,7 +3,7 @@ import Image from "next/image"
 const ConductPage = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center pt-4">
-      <Image src="/awslc banner.webp" alt="AWS Cloud Club - UPHSL Banner" width={672} height={150} className='rounded-lg'/>
+      <Image src="/awslc banner.webp" alt="AWS Student Builder Group - UPHSL Banner" width={672} height={150} className='rounded-lg'/>
       <div className="w-full px-6 py-4">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <h1 className="text-4xl text-center text-[#ffa23f]">Code of Conduct</h1>

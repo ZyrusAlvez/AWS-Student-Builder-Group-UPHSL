@@ -11,6 +11,15 @@ type Event = {
 
 export const events: Event[] = [
   {
+    title: "Ideathon 2026",
+    subtitle:
+      "A competitive ideation event where students collaborate to solve real-world challenges using AWS solutions and architecture. Participants develop, refine, and pitch innovative ideas, building skills in creativity, teamwork, and problem solving.",
+    date: "April 2026",
+    location: "Macintosh Laboratory, UPHSL",
+    type: EventType.COMPETITION,
+    pictures: "/event/Ideathon 2026",
+  },
+  {
     title: "AWS Cloud Club Launch: Introduction to AWS & Cloud Computing",
     subtitle: "A seminar introducing AWS Cloud Club, covering AWS fundamentals, cloud computing concepts, and the club's mission to empower students with cloud skills through workshops, projects, and community engagement.",
     date: "March 18, 2026",

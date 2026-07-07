@@ -6,13 +6,13 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   metadataBase: new URL('https://awslc.uphsl.edu.ph'),
   title: {
-    default: 'AWS Cloud Club - UPHSL | Amazon Web Services Student Community',
-    template: '%s | AWS Cloud Club - UPHSL'
+    default: 'AWS Student Builder Group - UPHSL | Amazon Web Services Student Community',
+    template: '%s | AWS Student Builder Group - UPHSL'
   },
-  description: 'Official AWS Cloud Club at University of Perpetual Help System Laguna (UPHSL) Biñan. Join our cloud computing community led by Zyrus Alvez, Renzo Ramos, and team. Learn AWS services, attend workshops, and build your tech career.',
+  description: 'Official AWS Student Builder Group at University of Perpetual Help System Laguna (UPHSL) Biñan. Join our cloud computing community led by Zyrus Alvez, Renzo Ramos, and team. Learn AWS services, attend workshops, and build your tech career.',
   keywords: [
-    'AWS Cloud Club',
-    'AWS Cloud Club UPHSL',
+    'AWS Student Builder Group',
+    'AWS Student Builder Group UPHSL',
     'UPHSL AWS',
     'Amazon Web Services UPHSL',
     'Cloud Computing UPHSL',
@@ -40,34 +40,34 @@ export const metadata: Metadata = {
     'AWS Certification',
     'Tech Community Philippines'
   ],
-  authors: [{ name: 'AWS Cloud Club - UPHSL' }],
-  creator: 'AWS Cloud Club - UPHSL',
-  publisher: 'AWS Cloud Club - UPHSL',
+  authors: [{ name: 'AWS Student Builder Group - UPHSL' }],
+  creator: 'AWS Student Builder Group - UPHSL',
+  publisher: 'AWS Student Builder Group - UPHSL',
   icons: {
-    icon: '/awscc logo.webp',
-    apple: '/awscc logo.webp',
+    icon: '/awssbg logo.png',
+    apple: '/awssbg logo.png',
   },
   openGraph: {
     type: 'website',
     locale: 'en_PH',
     url: 'https://awslc.uphsl.edu.ph',
-    siteName: 'AWS Cloud Club - UPHSL',
-    title: 'AWS Cloud Club - UPHSL | Amazon Web Services Student Community',
-    description: 'Official AWS Cloud Club at University of Perpetual Help System Laguna. Join our cloud computing community and learn AWS services.',
+    siteName: 'AWS Student Builder Group - UPHSL',
+    title: 'AWS Student Builder Group - UPHSL | Amazon Web Services Student Community',
+    description: 'Official AWS Student Builder Group at University of Perpetual Help System Laguna. Join our cloud computing community and learn AWS services.',
     images: [
       {
-        url: '/awscc logo.webp',
+        url: '/awssbg logo.png',
         width: 1200,
         height: 630,
-        alt: 'AWS Cloud Club UPHSL Logo',
+        alt: 'AWS Student Builder Group UPHSL Logo',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AWS Cloud Club - UPHSL',
-    description: 'Official AWS Cloud Club at University of Perpetual Help System Laguna',
-    images: ['/awscc logo.webp'],
+    title: 'AWS Student Builder Group - UPHSL',
+    description: 'Official AWS Student Builder Group at University of Perpetual Help System Laguna',
+    images: ['/awssbg logo.png'],
   },
   robots: {
     index: true,
@@ -89,11 +89,11 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "AWS Cloud Club - UPHSL",
+    "name": "AWS Student Builder Group - UPHSL",
     "alternateName": "AWSLC UPHSL",
     "url": "https://awslc.uphsl.edu.ph",
-    "logo": "https://awslc.uphsl.edu.ph/awscc logo.webp",
-    "description": "Official AWS Cloud Club at University of Perpetual Help System Laguna",
+    "logo": "https://awslc.uphsl.edu.ph/awssbg logo.png",
+    "description": "Official AWS Student Builder Group at University of Perpetual Help System Laguna",
     "email": "awslc.uphsl@gmail.com",
     "address": {
       "@type": "PostalAddress",

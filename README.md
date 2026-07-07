@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## 🚀 SEO Optimization
 
-This website has been fully optimized for search engines to rank #1 for "AWS Cloud Club" and team member name searches.
+This website has been fully optimized for search engines to rank #1 for "AWS Student Builder Group" and team member name searches.
 
 ### SEO Features Implemented:
 - ✅ Dynamic XML sitemap

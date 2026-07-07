@@ -19,7 +19,7 @@ const Footer = () => {
         <div className='grid md:grid-cols-4 gap-6 text-sm'>
           <div className='col-span-2 md:col-span-2'>
             <Link href='/' className='flex items-center mb-2 hover:opacity-80 transition-opacity'>
-              <Image src='/awscc logo.webp' alt='AWS Cloud Club' width={24} height={24} />
+              <Image src='/awssbg logo.png' alt='AWS Student Builder Group' width={24} height={24} />
               <span className='ml-2 text-base font-bold'>AWS Student Builder Group</span>
             </Link>
             <p className='text-gray-400 text-xs mb-3'>
